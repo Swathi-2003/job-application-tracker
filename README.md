@@ -38,7 +38,7 @@ Authentication	JSON Web Token (JWT)
 Extra	react-csv for data export
 ⚙️ Installation & Setup
 1️⃣ Clone the Repository
-git clone https://github.com/yourusername/job-application-tracker.git
+git clone  https://github.com/Swathi-2003/job-application-tracker.git
 cd job-application-tracker
 
 2️⃣ Backend Setup
