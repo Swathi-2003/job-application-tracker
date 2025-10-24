@@ -1,0 +1,128 @@
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to right, #dfe9f3, #ffffff);
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 85%;
+  margin: 30px auto;
+  background: #fff;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logout {
+  background: crimson;
+  color: #fff;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.job-form input,
+.job-form select,
+.job-form button {
+  padding: 8px;
+  margin: 5px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.job-form button {
+  background: #007bff;
+  color: white;
+}
+
+.job-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+}
+
+.job-table th,
+.job-table td {
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+.status.applied {
+  color: gray;
+}
+.status.interview {
+  color: blue;
+}
+.status.offer {
+  color: green;
+}
+.status.rejected {
+  color: red;
+}
+
+.dashboard {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px 0;
+}
+
+.stat-card {
+  background: #f7f7f7;
+  padding: 15px;
+  border-radius: 10px;
+  text-align: center;
+  width: 120px;
+}
+
+.csv-btn {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 8px 12px;
+  background: #28a745;
+  color: white;
+  border-radius: 6px;
+  text-decoration: none;
+}
+
+.auth-container {
+  text-align: center;
+  padding: 50px;
+}
+
+.auth-box {
+  display: inline-block;
+  margin: 10px;
+  padding: 20px;
+  border-radius: 10px;
+  background: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.filter-bar {
+  margin: 10px 0;
+}
+
+.msg {
+  color: red;
+}
+.link {
+  color: #007bff;
+  cursor: pointer;
+  text-decoration: underline;
+}
+.link:hover {
+  color: #0056b3;
+}
+.welcome {
+  margin: 0;
+  font-size: 14px;
+  color: #444;
+}
