@@ -9,8 +9,6 @@ The Job Application Tracker is a full-stack web application developed using the 
 This system allows users to register, log in, and manage their job applications efficiently.
 Each registered user can add, edit, view, delete, and filter their job applications while keeping their data secure and isolated using JWT-based authentication.
 
-The interface is designed to be clean, responsive, and professional, suitable for HR demo presentations or portfolio showcases.
-
 🚀 Key Features
 
 1. User Authentication (Register/Login with JWT)
@@ -89,35 +87,35 @@ DELETE	/api/jobs/:id   	Delete job by ID
 
 🗂️ Folder Structure
 JobApplicationTracker/
-├── backend/
-│   ├── server.js
-│   ├── models/
-│   ├── routes/
-│   ├── middleware/
-│   └── package.json
-│
-├── frontend/
-│   ├── src/
-│   │   ├── components/
-│   │   ├── App.js
-│   │   ├── App.css
-│   │   └── index.js
-│   └── package.json
-│
-├── screenshots/
-│   ├── register.png
-│   ├── login.png
-│   ├── dashboard.png
-│   ├── add.png
-│   ├── edit.png
-│   └── filter.png
-|   |__exportAsCSV.png
-│   
-|
-└── README.md
+--backend
+  server.js
+  models/
+  routes/
+  middleware/
+ package.json
+
+-- frontend/
+   src/
+    components/
+    App.js
+    App.css
+    index.js
+    package.json
+
+ --screenshots/
+   register.png
+   login.png
+    dashboard.png
+    add.png
+    edit.png
+   filter.png
+   exportAsCSV.png
+
+--Licence
+--README.md
 
 
-📸 Screenshots (Add After Running)
+📸 Screenshots 
 Register:
 ![Register](screenshots/register.png)
 
