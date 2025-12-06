@@ -23,7 +23,7 @@ export default function JobForm({ setJobs, token }) {
       return setError("Application date cannot be in the future.");
     }
 
-    const res = await fetch("http://localhost:5000/api/jobs", {
+    const res = await fetch("https://job-application-tracker-7s42.onrender.com/api/jobs", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",

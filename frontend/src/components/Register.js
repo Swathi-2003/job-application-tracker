@@ -9,7 +9,7 @@ export default function Register({ setToken, setAuthMode, setUser }) {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    const res = await fetch("http://localhost:5000/api/users/register", {
+    const res = await fetch("https://job-application-tracker-7s42.onrender.com/api/users/register", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(form),

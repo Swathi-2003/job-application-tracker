@@ -8,7 +8,7 @@ export default function JobList({ jobs, setJobs, token }) {
 
   const deleteJob = async (id) => {
     if (!window.confirm("Are you sure you want to delete this job?")) return;
-    await fetch(`http://localhost:5000/api/jobs/${id}`, {
+    await fetch(`https://job-application-tracker-7s42.onrender.com/api/jobs/${id}`, {
       method: "DELETE",
       headers: { Authorization: `Bearer ${token}` },
     });

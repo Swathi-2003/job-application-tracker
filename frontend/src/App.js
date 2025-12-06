@@ -27,7 +27,7 @@ function App() {
   }, [token]);
 
   const fetchJobs = () => {
-    fetch("http://localhost:5000/api/jobs", {
+    fetch("https://job-application-tracker-7s42.onrender.com/api/jobs", {
       headers: { Authorization: `Bearer ${token}` },
     })
       .then((res) => res.json())
